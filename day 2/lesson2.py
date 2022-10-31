@@ -33,10 +33,10 @@
 
 full_name = "nika amrazishvili"
 
-print(full_name[3:6:9])
+# print(full_name[3:6:2])
 
-
-
+# print(full_name[-4]+"abc")
+# print(full_name[-1:-6:-1])
 #სტრინგებს აქვთ მეთოდები 
 #    1) სტრინგ.upper() ზრდის შიფტს
 #    20 len(სტრინგ) 
@@ -51,7 +51,7 @@ name2 = "       NIKA      "
 
       #აჭრის ზედმეტ სფეისებს 
 
-print(name2.replace(" ", "#"))
+# print(name2.replace(" ", "#"))
 
 
 #replace ჩანაცვლება (" ", "any")
@@ -59,3 +59,15 @@ print(name2.replace(" ", "#"))
 
 name3 = "nika amrazishvili"
 print(name3.replace("a", "!"))
+
+
+name2 = "nika"
+print(name2.upper())
+
+
+
+
+
+
+
+

@@ -3,7 +3,7 @@
 #     for j in range(4):
 #         for k in range(3):
 #          print("nika")
-        
+#          x += 1
 
 
 # x = 0
@@ -97,7 +97,17 @@
 #     print(food)
 
 
+# my_list = ["xinkali", "mwvaedi", "lobiani", "qababi", "khachapuri", "wyali",]
+# price = [2, 20, 15, 10, 15, 2]
 
+
+# print(len(my_list))
+# print(len(price))
+
+# i = 0
+# while i < len(my_list):
+#     print(my_list[i] + " ღირს " + str(price[i]) + "ლარი")
+#     i += 1
 
 
 

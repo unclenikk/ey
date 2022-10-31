@@ -352,46 +352,64 @@
 
 
 
+# total_price = 0
+# i = 0
+# while i < 5:
+#      age_of_user = int(input("enter users age: "))
+#      if age_of_user >=3:
+#          total_price += 100
+#      i += 1
+
+# print(total_price)
 
 
 
 
 
+# print(total_price)
 
 
 
 
 
+# n = int(input())
+
+# for x in range (1, n):
+#      if x % 2 == 1:
+#          if x % 3 == 0 and x % 5 == 0:
+#              print("sololearn")
+#          elif x % 3 == 0:
+#              print("solo")
+#          elif x % 5 == 0:
+#              print("learn")
+#          else:
+#              print(x)
+
+
+# money_bank = 0
+# for i in range(3):
+#     age_of_students = int(input("enter students money: "))
+#     if age_of_students >= 18:
+#         money_bank += 200
+
+# print(money_bank)
 
 
 
 
+#scores = [20, 43, 56, 73, 10, 6, 87, 45, 97]
 
 
+# name1 = input("enter name1: ")
+# ammount_of_a_in_name1 = 0
+# for char in name1:
+#     if char in "a":
+#         ammount_of_a_in_name1 += 1
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+# if ammount_of_a_in_name1:
+#     print("the ammount of a in name1 {} a".format(ammount_of_a_in_name1))
+# else:
+#     print("the have equal ammount of a")
 
 
 
