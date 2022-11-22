@@ -53,4 +53,4 @@
 
 # print("my name and surname is" + " " + name + " " + surname + " " + "my age is" + " " + str(age) + " " + "my height is" +" " + str(height) + " " + "my hobby is" + " " + hobby + " " + "my nickname is " + nikname )
 
-#print("my name and surname is" + " " + name + " " + surname + " " + " my age is " + " " + str(age) + " " + " my height is" + " " + str(height) + " " + "my hair color is" + " " + str(is_darkhair) + " " + "my hobby is" + " " + hobby + " " + str(knows_programming) + " " + "my nickname is" + " " + nikname + " " + "have dogs" + " " + str(have_dogs))
+#print("my name and surname is" + " " + name + " " + surname + " " + " my age is " + " " + str(age) + " " + " my height is" + " " + str(height) + " " + "my hair color is" + " " + str(is_darkhair) + " " + "my hobby is" + " " + hobby + " " + str(knows_programming) + " " + "my nickname is" + " " + nikname + " " + "have dogs" + " " + str(have_dogs))2
