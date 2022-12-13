@@ -6,12 +6,12 @@ for i in range(10):
 x = "!".join(my_arr)
 print(x)
 
-
-
-
-
-
-
+def update_light(current):
+    arr = ["red","yellow","green"]
+    if current == "red":
+        return "green"
+    return arr[arr.index(current)-1]
+print(update_light("red"))
 
 
 

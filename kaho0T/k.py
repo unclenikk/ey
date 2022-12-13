@@ -801,9 +801,245 @@ for number in numbers:
 #8
 
 
+#----------------------------------------
+
+# 1
+# def my_func:
+#       return 'hello'
+#       return 'world'
+#       return """ Goal
+#       Oriented
+#       Academy \n goodbye to a world.
+#       """
+
+# my_func()
+
+
+# 2
+# def my_math():
+#       x = 2
+#       y = x
+#       answer = input("What is x + y equal to: ") # input = 4
+#       if x + y == answer:
+#             print('GOOD JOB')
+#       print('GOODBYE')
+
+# my_math()
+
+
+# 3
+# name = "Xareba"
+# def greeting(name):
+#       return "Hello {}, Welcome to Goal-Oriented Academy.".format(name)
+
+# greeting(name)
+
+
+# 4
+# def my_math():
+#     x = 2
+#     y = x
+#     answer = int(input("What is x + y equal to: "))  # input = 4
+#     if x + y == answer:
+#         return ('GOOD JOB')
+#     return ('GOODBYE')
+
+
+# print(my_math())
+
+
+# 5
+# names_list = ['Nika', 'Luka', ['Mari', 'Lizi', ['Elene', 'Ana']], ['El', ['Guja', 'Nodo']]]
+# 0. Nika 
+# 1. Luka 
+# 2. [Mari, Lizi, [Elene, Ana]]
+# 3. [El, [Guja, Nodo]]
+# print(names_list[2][2][0] + names_list[3][0] + names_list[3][1][0]) #EleneElGuja
+
+
+# 6
+# def greeting():
+#       name = input("") # input = Nika
+#       return 'Hello {}'.format(name)
+
+# print(name + greeting())
+
+
+# 7
+# sawmelebi = ["vashli", "banani", "pomidori", "wiwibura", "shaurma"]
+# arajansagi_sawmelebi = ['shaurma', 'burgeri', 'hot dogi', 'pica']
+
+# for sawmeli in sawmelebi:
+#       if sawmeli in arajansagi_sawmelebi:
+#             continue
+#       else:
+#             print(sawmeli)
+
+
+# 8
+# my_arr = ['python', 'javascript', 'c#', 'c++', 'c']
+
+# def only_c(new_arr):
+#     c_languages = []
+#     for i in new_arr:
+#         if i[0] == 'c':
+#             c_languages.append(i)
+#     return (c_languages)
+
+# print(str(only_c(my_arr)) + " Are C Languages.")
+
+
+# 9
+# def my_func():
+#     return 'hello'
+#     return 'world'
+#     return """ Goal
+#       Oriented
+#       Academy \n goodbye to a world.
+#       """
 
 
 
+# 1
+# def lashas_mama(num):
+#     return str(num)
+
+# print(lashas_mama(80085))
+
+
+# 2
+# def my_func(numbers):
+#     arr = []
+
+#     splited_arr = numbers.split()
+
+#     for element in splited_arr:
+#         arr.append(int(element))
+
+
+#     return '{} {}'.format(max(arr), min(arr))
+
+# print(my_func(10,15,20,69))
+
+
+# 3
+# def nacarqeqia(str_1, str_2):
+#     return str_1[0] == str_2[0] and str_1[-1] == str_2[-1]
+
+
+
+# print(nacarqeqia(input("ee"), input("e")))
+# 1 input - iyo arabets rostevan
+# 2 input - iyo erti komble
+
+
+
+# 4
+# def shuqnishani(current):
+#     arr = ['witeli', 'yviteli', 'mwvane']
+
+#     if current == 'witeli':
+#         return 'mwvane'
+
+#     return arr[arr.index(current) - 1]
+
+# user_color = input("mwvane") # input - yviteli
+# print(shuqnishani(user_color))
+
+
+
+# 5
+# def chemi_funqcia(numbers):
+#     arr = []
+#     splited_arr = numbers.split()
+
+#     for element in splited_arr:
+#         arr.append(int(element))
+
+#     return('{} {}'.format(max(arr), min(arr)))
+
+# num1 = '169 69 127 131 66'
+# print(chemi_funqcia(num1))
+
+
+
+# 6
+# def chemi_funqcia(s):
+#     w = s.split()
+#     w.reverse()
+#     x = ' '.join(w)
+
+#     return x
+
+
+# my_str = 'Lorem ipsum dolor sit amet.'
+# print(chemi_funqcia(my_str))
+
+
+
+# 7
+# def shuala(s):
+#     if len(s) % 2 == 1:
+#         return s[len(s) // 2]
+#     if len(s) % 2 == 0:
+#         return s[len(s) // 2 - 1] + s[len(s) // 2]
+
+
+# titi = 'hello my brothers and sisters ანუ ძმანო და დანო ტანო ტატანო '
+# print(shuala(titi))
+
+
+
+# 8
+# import random
+
+# def my_func(arr):
+#     sum = 0
+#     for num in arr:
+#         my_num = 0
+#         if num > my_num:
+#             sum += num
+#             my_num += sum
+#     return sum
+
+# my_arr = [6, -2, 21, -18, -79, 13, 4, -2]
+# print(my_func(my_arr) + random.randint(0, 12))
+
+
+
+# 9
+# def maxsimusi(a, b, c):
+#     return max(a + b + c, a * b * c, (a + b) * c, a * (b + c))
+
+# print(maxsimusi(7, 9, 5) -maxsimusi(8, 4, 6))
+
+
+
+# 10
+# def my_func(wlebi):
+#     if wlebi == 1:
+#         return [wlebi, 15, 15]
+#     if wlebi == 2:
+#         return [wlebi, 24, 24]
+#     return [wlebi, 24 + (wlebi - 2) * 4, 24 + (wlebi - 2) * 5]
+
+# user_dro = 2
+# print(my_func(user_dro + 2))
+
+
+
+
+# arr = [1, 2, 3, 4, 6, 7, 8]
+
+# def my_func(arr):
+#     i = arr[0] # 1 2 3 4 5
+#     for num in arr:
+#         if num != i:
+#             return (num)
+#         i += 1
+#     return None
+
+# print(my_func(arr))
 
 
 

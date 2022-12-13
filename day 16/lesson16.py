@@ -4,10 +4,6 @@
 
 
 
-
-
-
-
 # import random
 # num1 = random.randint(5, 23)
 # num2 = random.randrange(44)
